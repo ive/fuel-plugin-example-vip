@@ -1,0 +1,13 @@
+example_vip:
+  # Role name
+  name: "Example VIP"
+  # Role description
+  description: "Write description for your role"
+  # If primaty then during orchestration this role will be
+  # splitted into primary-role and role
+  has_primary: true
+  # Assign public IP to node if true
+  public_ip_required: true
+  # Weight that will be used to sort out the
+  # roles on the Fuel web UI
+  weight: 1000
